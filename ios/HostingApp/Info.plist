@@ -32,6 +32,8 @@ QoiPiJruNBGUChudM6Fvnz8UotGKJWwlYw1eLWaUnTTQxOusPh/iAYcTXwfodQvp
 kyAcZ3Pqr5wOl5lohM6pQZmOibktwuFeSy9RpQXtyYWVo7QMuReBSW2ndi95UFuN
 BwIDAQAB
 -----END PUBLIC KEY-----</string>
+	<key>CodePushDeploymentKey</key>
+	<string>PWvbJBjc9Nnuw6PItZ7mQnV56OP3B1N0LCiR7</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
