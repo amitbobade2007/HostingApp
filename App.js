@@ -12,19 +12,20 @@ import codePush from "react-native-code-push";
 let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
 
 export default class App extends Component {
+  
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>This hosting app changes demo.</Text>
-        <Button onPress={this.onPressLearnMore} title="Tap Me" color="#841584"
+        <Button onPress={this.onPressLearnMore} title="Press This Button" color="#841584"
         accessibilityLabel="Learn more about this purple button"/>
       </View>
     );
   }
 
   onPressLearnMore() {
-    Alert.alert('Test', 'Learn more button pressed sdsdf.');
+    Alert.alert('Test', 'Pressed Button.');
   }
 }
 
