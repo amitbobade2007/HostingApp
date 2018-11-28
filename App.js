@@ -17,7 +17,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>This hosting app changes demo.</Text>
-        <Button onPress={this.onPressLearnMore} title="Press Me" color="#841584"
+        <Button onPress={this.onPressLearnMore} title="Tap Me" color="#841584"
         accessibilityLabel="Learn more about this purple button"/>
       </View>
     );
