@@ -7,19 +7,29 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button, Alert} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button, Alert, TouchableOpacity} from 'react-native';
 import codePush from "react-native-code-push";
-let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.MANUAL };
 
 export default class App extends Component {
-  
+  onButtonPress() {
+    codePush.sync({
+        updateDialog: true,
+        installMode: codePush.InstallMode.IMMEDIATE
+    });
+}
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>This hosting app changes demo.</Text>
-        <Button onPress={this.onPressLearnMore} title="Press This Button" color="#841584"
+        <Button onPress={this.onPressLearnMore} title="Tap Me" color="#841584"
         accessibilityLabel="Learn more about this purple button"/>
+
+        <TouchableOpacity onPress={this.onButtonPress}>
+                    <Text>Check for updates</Text>
+                </TouchableOpacity>
       </View>
     );
   }

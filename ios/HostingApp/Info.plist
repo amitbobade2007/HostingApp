@@ -17,11 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>2</string>
+	<key>CodePushDeploymentKey</key>
+	<string>PWvbJBjc9Nnuw6PItZ7mQnV56OP3B1N0LCiR7</string>
 	<key>CodePushPublicKey</key>
 	<string>-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArz5kcD1kiAKTotZ3Fh8u
@@ -32,8 +34,6 @@ QoiPiJruNBGUChudM6Fvnz8UotGKJWwlYw1eLWaUnTTQxOusPh/iAYcTXwfodQvp
 kyAcZ3Pqr5wOl5lohM6pQZmOibktwuFeSy9RpQXtyYWVo7QMuReBSW2ndi95UFuN
 BwIDAQAB
 -----END PUBLIC KEY-----</string>
-	<key>CodePushDeploymentKey</key>
-	<string>PWvbJBjc9Nnuw6PItZ7mQnV56OP3B1N0LCiR7</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

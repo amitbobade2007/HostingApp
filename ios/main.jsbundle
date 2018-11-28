@@ -81312,35 +81312,35 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17
+            lineNumber: 18
           }
         }, _react.default.createElement(_reactNative.Text, {
           style: styles.welcome,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18
+            lineNumber: 19
           }
         }, "Welcome to React Native!"), _react.default.createElement(_reactNative.Text, {
           style: styles.instructions,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19
+            lineNumber: 20
           }
         }, "This hosting app changes demo."), _react.default.createElement(_reactNative.Button, {
           onPress: this.onPressLearnMore,
-          title: "Press Me",
+          title: "Press This Button",
           color: "#841584",
           accessibilityLabel: "Learn more about this purple button",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20
+            lineNumber: 21
           }
         }));
       }
     }, {
       key: "onPressLearnMore",
       value: function onPressLearnMore() {
-        _reactNative.Alert.alert('Test', 'Learn more button pressed sdsdf.');
+        _reactNative.Alert.alert('Test', 'Pressed Button.');
       }
     }]);
     return App;
