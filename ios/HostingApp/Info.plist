@@ -21,20 +21,32 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
+	<key>CodePushPublicKey</key>
+	<string>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArz5kcD1kiAKTotZ3Fh8u
+Vq3Sdm6f0WB57CfqkkdQv0nXSEMoxt8WSGcsFLweBJf4sfT8Rbg4a1PpZy5WEPPK
+ChOXCtj2cuM28g6l9IMINMIp5s5PJYObCFJq1+PI2VTOHVdbayg4mlcd8111TJCv
+4slcAHUkwpXHB85LWbBnfIq8mM1ivztRvG0qHDFvDn7lziotHBAYk+jC0UFC1i4R
+QoiPiJruNBGUChudM6Fvnz8UotGKJWwlYw1eLWaUnTTQxOusPh/iAYcTXwfodQvp
+kyAcZ3Pqr5wOl5lohM6pQZmOibktwuFeSy9RpQXtyYWVo7QMuReBSW2ndi95UFuN
+BwIDAQAB
+-----END PUBLIC KEY-----</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
-		<key>NSExceptionDomains</key>
+		<key>codepush.azurewebsites.net</key>
 		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+		</dict>
+		<key>localhost</key>
+		<dict>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
